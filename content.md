@@ -523,3 +523,15 @@ Or: find me the customer/product combinations where the shipping cost dominates 
 ![Whiteboard](resources/whiteboard.png)
 
 https://github.com/mamersfo/datomic-intro-java
+
+---
+
+# References
+
+[Datomic development resources](http://docs.datomic.com)
+
+API for [Java](http://docs.datomic.com/javadoc/index.html), [Clojure](http://docs.datomic.com/clojure/index.html) and [REST](http://docs.datomic.com/rest.html)
+
+Datomic forum at [Google Groups](https://groups.google.com/forum/?fromgroups#!forum/datomic)
+
+Presentations about Datomic: [The Design of Datomic](http://www.infoq.com/presentations/The-Design-of-Datomic) [Writing Datomic in Clojure](http://www.infoq.com/presentations/Datomic), [The Database as a Value](http://www.infoq.com/presentations/Datomic-Database-Value), [Deconstructing the Database](http://www.infoq.com/presentations/Deconstructing-Database)
