@@ -2,6 +2,17 @@
 
 ---
 
+![](resources/100px.png)
+![](resources/100px.png)
+![Finalist](resources/finalist.png)
+
+---
+
+![](resources/100px.png)
+![Martin van Amersfoorth](resources/me.jpg)
+
+---
+
 # Topics
 
 Part I
@@ -196,12 +207,6 @@ Source: Rich Hickey, at [GOTO 2012](http://www.infoq.com/presentations/Datomic)
 
 ---
 
-# Features
-
-* Excision
-
----
-
 # NoSQL, NewSQL and Datomic
 
 ---
@@ -285,7 +290,7 @@ http://snltranscripts.jt.org/75/75ishimmer.phtml
 
 * Datomic uses DynamoDB KV-store for storage
 * Datomic uses Memcached for caching
-* But: Datomic adds leverage with query, transactions and consistency
+* But: Datomic has information model, adds leverage with query, transactions and consistency
 
 ![Riak](resources/riak.png)
 
