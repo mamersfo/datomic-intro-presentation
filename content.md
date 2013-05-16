@@ -4,10 +4,15 @@
 
 # Topics
 
+Part I
+
 * Introduction
 * Deconstructing the Database
 * Datomic Architecture
 * NoSQL, NewSQL and Datomic
+
+Part II
+
 * Datalog Crash Course
 * Lab Exercises
 
@@ -111,7 +116,7 @@ reads | writes => reaction
 
 ![Treerings](resources/tree_rings.gif)
 
-* Datomic: Accretion of immutable facts, the database as an expanding value
+* Datomic: Accretion of immutable facts, the database as an expanding value, otherwise: [excision](http://blog.datomic.com/2013/05/excision.html)
 
 .notes: quite reasonable in a time where storage is expensive, but that is not the case anymore. Over there, a place.
 
@@ -188,6 +193,12 @@ Source: Rich Hickey, at [GOTO 2012](http://www.infoq.com/presentations/Datomic)
 # Indexing
 
 ![Index Storage](resources/indexing0.png)
+
+---
+
+# Features
+
+* Excision
 
 ---
 
@@ -300,9 +311,23 @@ http://snltranscripts.jt.org/75/75ishimmer.phtml
 
 ![Agility](resources/agility.png)
 
-
-
 Adapted from: Stuart Halloway, from "Day of Datomic" training
+
+---
+
+# References
+
+[Datomic development resources](http://docs.datomic.com)
+
+API for [Java](http://docs.datomic.com/javadoc/index.html), [Clojure](http://docs.datomic.com/clojure/index.html) and [REST](http://docs.datomic.com/rest.html)
+
+Datomic forum at [Google Groups](https://groups.google.com/forum/?fromgroups#!forum/datomic)
+
+Datomic [the blog](http://blog.datomic.com)
+
+Presentations about Datomic: [The Design of Datomic](http://www.infoq.com/presentations/The-Design-of-Datomic) [Writing Datomic in Clojure](http://www.infoq.com/presentations/Datomic), [The Database as a Value](http://www.infoq.com/presentations/Datomic-Database-Value), [Deconstructing the Database](http://www.infoq.com/presentations/Deconstructing-Database)
+
+Use case: analyze code using [codeq](http://blog.datomic.com/2012/10/codeq.html)
 
 ---
 
@@ -523,15 +548,3 @@ Or: find me the customer/product combinations where the shipping cost dominates 
 ![Whiteboard](resources/whiteboard.png)
 
 https://github.com/mamersfo/datomic-intro-java
-
----
-
-# References
-
-[Datomic development resources](http://docs.datomic.com)
-
-API for [Java](http://docs.datomic.com/javadoc/index.html), [Clojure](http://docs.datomic.com/clojure/index.html) and [REST](http://docs.datomic.com/rest.html)
-
-Datomic forum at [Google Groups](https://groups.google.com/forum/?fromgroups#!forum/datomic)
-
-Presentations about Datomic: [The Design of Datomic](http://www.infoq.com/presentations/The-Design-of-Datomic) [Writing Datomic in Clojure](http://www.infoq.com/presentations/Datomic), [The Database as a Value](http://www.infoq.com/presentations/Datomic-Database-Value), [Deconstructing the Database](http://www.infoq.com/presentations/Deconstructing-Database)
